@@ -1,0 +1,62 @@
+<style>
+p{
+  color: red;
+}
+body{
+  background-color: cornsilk;
+}
+.home-header{
+  color: rgb(199, 21, 133);
+}
+h1{
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+h2{
+  color: purple;
+}
+h3{
+  color: darkblue;
+}
+img{
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 4px;
+    width: 30%;
+}
+a[href="projects.html"] {
+  background-color: tomato;
+}
+a[href="assignment-one.html"] {
+  background-color: 	#FFFF00;
+}
+a[href="index.html"] {
+  font-size: 18px;
+}
+.footer{
+  background-color: lightgreen;
+  color: darkred;
+  font-weight: bold;
+}
+.projects-section{
+  background-color: lightblue;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#wa-runs{
+  background-color: #E0FFFF;
+  border-style: double;
+  border-color: darkgreen;
+  border-width: 3px;
+}
+.countries-table{
+color: orange;
+}
+td{
+  text-align: center;
+}
+.project-names:hover{
+  background-color: magenta;
+}
+</style>
