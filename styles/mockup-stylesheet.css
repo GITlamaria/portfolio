@@ -2,8 +2,29 @@
 body{
   font-family: sans-serif;
 }
-aside{
-  position: fixed;
-  left: 20px;
+.left-sidebar{
+  width: 60%;
+  padding-left: 15%;
+  margin-left: 15px;
+  float: left;
+}
+.right-sidebar{
+  width: 30%;
+  float:right;
+  padding-right: 15%;
+  padding-top: 10%;
+  margin-right: 15px;
+}
+
+figure{
+  padding-top: 10%;
+}
+
+header{
+  font-weight: bold;
+  font-size: 1rem;
+}
+a{
+  color: lightblue;
 }
 </style>
