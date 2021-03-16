@@ -1,6 +1,7 @@
 <style>
 body{
   font-family: Helvetica, sans-serif;
+  color: darkgrey;
 }
 .left-sidebar{
   width: 60%;
@@ -17,7 +18,7 @@ body{
 }
 header{
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 a{
   color: #00CED1;
