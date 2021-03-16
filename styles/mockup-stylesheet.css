@@ -1,11 +1,11 @@
 <style>
 body{
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 .left-sidebar{
   width: 60%;
   padding-left: 15%;
-  margin-left: 15px;
+  margin-left: 20px;
   float: left;
 }
 .right-sidebar{
@@ -15,16 +15,17 @@ body{
   padding-top: 10%;
   margin-right: 15px;
 }
-
-figure{
-  padding-top: 10%;
-}
-
 header{
   font-weight: bold;
   font-size: 1rem;
 }
 a{
-  color: lightblue;
+  color: #00CED1;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 25px;
+}
+img{
+  width: 85%;
 }
 </style>
