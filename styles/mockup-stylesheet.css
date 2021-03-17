@@ -25,12 +25,25 @@ figure {
   width: 85%;
 }
 
-.cat-logo{
+.kittie-footer{
   background-color: #303030;
+  color: lightgrey;
+  text-align: center;
   position: fixed;
   width: 100%;
-  height: 250px;
   bottom: 0;
+  padding: 50px;
+  font-size: 12px;
+
+}
+.kittie-footer>section{
+  padding-left: 525px;
+  padding-right: 525px;
+}
+.cat-logo{
+  width: 20%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 </style>
