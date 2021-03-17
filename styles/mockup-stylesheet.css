@@ -1,7 +1,6 @@
 <style>
 body{
-  font-family: Helvetica, sans-serif;
-  color: darkgrey;
+  font-family: Arial, sans-serif;
 }
 aside{
   width: 20%;
@@ -19,12 +18,10 @@ a{
   display: block;
   padding-bottom: 25px;
 }
-
-figure {
+figure{
   float: right;
   width: 85%;
 }
-
 .kittie-footer{
   background-color: #303030;
   color: lightgrey;
@@ -32,18 +29,23 @@ figure {
   position: fixed;
   width: 100%;
   bottom: 0;
-  padding: 50px;
+  padding: 40px;
   font-size: 12px;
-
 }
 .kittie-footer>section{
-  padding-left: 525px;
-  padding-right: 525px;
+  padding-left: 500px;
+  padding-right: 500px;
+
 }
 .cat-logo{
   width: 20%;
+  padding-bottom: 20px;
   vertical-align: middle;
   display: inline-block;
 }
-
+.kittie-footer>section:nth-child(3){
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
 </style>
