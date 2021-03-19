@@ -6,15 +6,17 @@ body{
   color: gray;
   font-weight: bold;
 }
-img {
-  width: 100%;
-}
+
 .header-image {
   height: 8rem;
+  width: 100%;
 }
 
 h1 {
   text-align: center;
+}
+h2 {
+  color: salmon;
 }
 article {
   width: 60%;
@@ -30,6 +32,15 @@ section {
   padding: 1rem;
 }
 .footer-image {
-  height: 8rem;
+  height: 10rem;
+  width: 100%;
+  position: fixed;
   bottom: 0;
+}
+ol {
+  padding: 1rem;
+  text-indent: .5rem;
+}
+li {
+margin-left: 5rem;
 }
