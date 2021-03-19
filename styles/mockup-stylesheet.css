@@ -15,11 +15,6 @@ aside {
   padding-top: 10rem;
   padding-right: 5rem;
 }
-
-header{
-  font-weight: bold;
-  font-size: 2rem;
-}
 a{
   color: #00CED1;
   text-decoration: none;
@@ -29,7 +24,9 @@ a{
 figure{
 display: contents;
 }
-
+.header-image {
+  height: 10%;
+}
 footer{
   background-color: #303030;
   color: lightgrey;
