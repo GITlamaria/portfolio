@@ -31,10 +31,11 @@ body{
   font-size: 16px;
   font-weight: bold;
 }
-
+.awesome-font {
+  align-self: center;
+}
 .fa-cat {
   color: purple;
-  align-self: center;
 }
 .main-container {
   display: flex;
@@ -47,7 +48,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
+  width: 70%;
   padding-left: 10rem;
   padding-right: 3rem;
 }
@@ -89,7 +90,7 @@ mark {
 .right-pane {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
   padding-bottom: 2rem;
 }
 .cat-week {
