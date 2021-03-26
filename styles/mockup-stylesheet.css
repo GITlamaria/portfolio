@@ -99,3 +99,26 @@ mark {
 .cat-news {
   font-weight: 900;
 }
+
+/* transitions, pseudo-selectors */
+
+a {
+  text-decoration: none;
+  color: rgba(0, 130, 165, .8);
+}
+.menu a:visited {
+  color: #F08080;
+}
+.left-pane-box::first-letter {
+  font-size: 200%;
+  color: #4169E1;
+}
+.awesome-font i:nth-child(even) {
+  color: yellow;
+}
+.story:hover {
+  font-size: 30px;
+}
+.story p:nth-child(2n) {
+  transition: font-size 15s ease-out 2s;
+}
