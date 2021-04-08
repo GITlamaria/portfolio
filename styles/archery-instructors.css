@@ -18,7 +18,7 @@ header {
   text-align: right;
   padding-right: 5rem;
   letter-spacing: .25rem;
-  color: white;
+  color: #F8F8FF;
 }
 a {
   text-decoration: none;
@@ -31,6 +31,13 @@ a {
   grid-areas:
   "photo bio photo bio photo bio"
 }
+.i-container {
+  display: grid;
+  align-content: flex-start;
+  grid-area: i-container;
+  grid-areas:
+  "photo bio"
+}
 .title {
   color: #03a3df;
   text-align: center;
@@ -42,11 +49,13 @@ a {
   flex-direction: row;
   grid-column-gap: 3rem;
 }
+photo {
+  display-area: photo;
+}
 .photo {
-display-area: photo;
 padding-left: 2rem;
 }
-.bio {
+bio {
 display-area: bio;
 }
 .bio h1, h2, h4 {
@@ -75,7 +84,7 @@ footer {
   text-align: center;
 }
 a[href="https://www.google.com/maps/@47.7585324,-122.1160245,14z"] {
-  color: #ecb722;
+  color: #F8F8FF;
 }
 .policy {
   font-size: .8rem;

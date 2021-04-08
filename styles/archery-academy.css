@@ -24,11 +24,11 @@ header {
   text-align: right;
   padding-right: 5rem;
   letter-spacing: .25rem;
-  color: white;
+  color: #F8F8FF;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #F8F8FF;
 }
 main {
   grid-area: main;
@@ -36,6 +36,10 @@ main {
 }
 .main {
   padding-left: 2rem;
+  font-size: 1.5rem;
+}
+h3, h5 {
+  color: #03a3df;
 }
 .title {
   padding-right: 2rem;
@@ -47,8 +51,8 @@ video {
   grid-area: video;
   justify-content: flex-end;
 }
-.video p {
-  color: #ecb722;
+.video h2 {
+  color: #03a3df;
   font-weight: bold;
 }
 footer {
@@ -65,7 +69,7 @@ height: 20rem;
   font-weight: bold;
 }
 a[href="https://www.google.com/maps/@47.7585324,-122.1160245,14z"] {
-  color: #444444;
+  color: #03a3df;
 }
 .policy {
   font-size: .8rem;
