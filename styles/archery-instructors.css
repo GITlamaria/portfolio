@@ -28,35 +28,29 @@ a {
   display: grid;
   align-content: flex-start;
   grid-area: i-container;
-  grid-areas:
+  grid-template-areas:
   "photo bio photo bio photo bio"
-}
-.i-container {
-  display: grid;
-  align-content: flex-start;
-  grid-area: i-container;
-  grid-areas:
-  "photo bio"
 }
 .title {
   color: #03a3df;
   text-align: center;
   letter-spacing: .25em;
   height: 8rem;
+  font-size: 3rem;
 }
 .instructors {
   display: flex;
   flex-direction: row;
   grid-column-gap: 3rem;
 }
-photo {
-  display-area: photo;
+.photo {
+  grid-area: photo;
 }
 .photo {
 padding-left: 2rem;
 }
-bio {
-display-area: bio;
+.bio {
+grid-area: bio;
 }
 .bio h1, h2, h4 {
   color: #03a3df;
