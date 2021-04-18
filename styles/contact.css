@@ -1,0 +1,37 @@
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input {
+  border-radius: 15px;
+}
+/* hide arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearnce: texfield;
+}
+
+input[type="submit"] {
+  background-color: #A9A9A9;
+  color: rgb(0,255,255);
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+.gender {
+  display:block;
+}

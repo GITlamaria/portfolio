@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles/contact.css">
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <form method="GET">
+      <label>Name:
+        <input type="text" name="contactName">
+      </label>
+      <label>Email:
+        <input type="email" name="contactEmail">
+      </label>
+      <label>Age:
+        <input type="number" name="contactAge" min="1" oninput="validity.valid||(value='');">
+      </label>
+
+      <fieldset class="phone">
+        <label>phone:
+          <input type="text" name="contactPhone">
+        </label>
+        <label>Cell</label>
+        <input type="radio" name="number" value="cell">
+        <label>home</label>
+        <input type="radio" name="number" value="home">
+      </fieldset>
+
+      <fieldset class="gender">
+        <legend>Gender:</legend>
+          <label>Male
+            <input type="checkbox" name="gender" value="male">
+          </label>
+          <label>female:
+            <input type="checkbox" name="gender" value="female">
+          </label>
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
