@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="styles/contact.css">
   </head>
   <body>
-    <h1>Contact Details</h1>
-    <form method="GET">
+
+    <div class="">
+    <form class="contact-form" method="GET">
+              <h1>Contact Details</h1>
+        <h2>Please complete the form and then click submit.</h2>
+      <div class="">
+
+
       <label>Name:
         <input type="text" name="contactName">
       </label>
@@ -17,28 +23,49 @@
       <label>Age:
         <input type="number" name="contactAge" min="1" oninput="validity.valid||(value='');">
       </label>
-
-      <fieldset class="phone">
-        <label>phone:
-          <input type="text" name="contactPhone">
-        </label>
-        <label>Cell</label>
-        <input type="radio" name="number" value="cell">
-        <label>home</label>
-        <input type="radio" name="number" value="home">
-      </fieldset>
-
-      <fieldset class="gender">
-        <legend>Gender:</legend>
-          <label>Male
-            <input type="checkbox" name="gender" value="male">
+      </div>
+      <div class="">
+        <fieldset class="phone">
+          <label>phone:
+            <input type="text" name="contactPhone">
           </label>
-          <label>female:
-            <input type="checkbox" name="gender" value="female">
-          </label>
-      </fieldset>
-      <input type="submit" value="Submit">
+          <label>Cell</label>
+          <input type="radio" name="number" value="cell">
+          <label>home</label>
+          <input type="radio" name="number" value="home">
+        </fieldset>
+
+      </div>
+<div class="">
+  <fieldset class="checkbox">
+    <legend>When can you be contacted?</legend>
+      <label>
+        <input type="checkbox" value="mondays">
+      Mondays</label>
+      <label>
+        <input type="checkbox"  value="tuesdays">
+      Tuesdays</label>
+      <label>
+        <input type="checkbox" value="wednesdays">
+      Wednesdays</label>
+      <label>
+        <input type="checkbox" value="thursdays">
+      Thursdays</label>
+      <label>
+        <input type="checkbox" value="fridays">
+      Fridays</label>
+      <label>
+        <input type="checkbox" value="saturdays">
+      Saturdays</label>
+      <label>
+        <input type="checkbox" value="sundays">
+      Sundays</label>
+  </fieldset>
+</div>
+<div class="">
+  <input type="submit" value="Submit">
+</div>
     </form>
-
+    </div>
   </body>
 </html>

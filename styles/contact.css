@@ -5,33 +5,60 @@ button, input, select, textarea {
   display: block;
   margin: 1rem;
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
 
+h1{
+  text-align: center;
+  border-bottom: .5rem solid #A9A9A9;
+}
+h2 {
+  height: 3rem;
+  font-style: italic;
+}
 input {
   border-radius: 15px;
 }
-/* hide arrows */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+/* hide arrows for Chrome and Edge browsers */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input[type=number] {
-  -moz-appearnce: texfield;
+/* hide arrows for Firefox browser*/
+input[type="number"] {
+  -moz-appearance: textfield;
 }
-
+legend {
+  font-size: 1.5rem;
+}
 input[type="submit"] {
   background-color: #A9A9A9;
   color: rgb(0,255,255);
+  width: 100%;
 }
-
 fieldset {
   border: none;
 }
-
 fieldset input {
   display: inline;
 }
-.gender {
-  display:block;
+.checkbox label {
+  display: block;
+  position: relative;
+  /*
+  padding-left: 35px;
+  margin-top; 12px;*/
+  padding-left: 3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
