@@ -42,6 +42,7 @@ body{
   font-family: 'Syne Mono', monospace;
   font-size: 18px;
   font-weight: bold;
+
 }
 .awesome-font {
   align-self: center;
@@ -80,7 +81,7 @@ body{
   font-size: 20px;
 }
 mark {
-    color: #00546B);
+    color: #00546B;
     background-color: white;
 }
 .flex-footer {
