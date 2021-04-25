@@ -5,7 +5,7 @@ body{
 .header-container {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 130, 165, .8);
+  background-color: #00B4E6;
   color: white;
   height: 22rem;
   text-indent: 10rem;
@@ -22,20 +22,32 @@ body{
   font-size: 30px;
   padding-bottom: 1rem;
 }
+
+/* move skip-to-link off the page*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+/* make skip-to-link visible when it has focus */
+.hidden:focus {
+  left: 0;
+}
 .menu {
-  background-color: #F5F5F5;
+  background-color: #00B4E6;
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: black;
   font-family: 'Syne Mono', monospace;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 .awesome-font {
   align-self: center;
 }
 .fa-cat {
-  color: purple;
+  color: #700070;
 }
 .main-container {
   display: flex;
@@ -56,19 +68,19 @@ body{
   align-content: space-between;
 }
 .article-header {
-  color: rgba(0, 130, 165, .8);
+  color: #00546B;
   font-weight: bold;
   font-size: 20px;
 }
 .article-snippet {
-  color: rgba(0, 130, 165, .8);
+  color: #00546B;
   font-size: 18px;
 }
 .story-title {
   font-size: 20px;
 }
 mark {
-    color: rgba(0, 130, 165, .8);
+    color: #00546B);
     background-color: white;
 }
 .flex-footer {
@@ -104,17 +116,17 @@ mark {
 
 a {
   text-decoration: none;
-  color: rgba(0, 130, 165, .8);
+  color: #00546B;
 }
 .menu a:visited {
-  color: #F08080;
+  color: #808080;
 }
 .left-pane-box::first-letter {
   font-size: 200%;
   color: #4169E1;
 }
 .awesome-font i:nth-child(even) {
-  color: yellow;
+  color: #FFFF00;
 }
 .story:hover {
   font-size: 30px;

@@ -51,9 +51,6 @@ fieldset input {
 .checkbox label {
   display: block;
   position: relative;
-  /*
-  padding-left: 35px;
-  margin-top; 12px;*/
   padding-left: 3rem;
   margin-top: 1rem;
   cursor: pointer;
