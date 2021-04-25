@@ -26,6 +26,19 @@ header {
   letter-spacing: .25rem;
   color: #F8F8FF;
 }
+
+/* move skip-to-link off the page*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+/* make skip-to-link visible when it has focus */
+.hidden:focus {
+  left: 0;
+  color: green;
+}
 a {
   text-decoration: none;
   color: #F8F8FF;
